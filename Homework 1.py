@@ -6,8 +6,7 @@ import os
 import matplotlib
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
-'''print(os.getcwd())
- '''
+print(os.getcwd())
 
 # Loading in Data
 df_x_train = pd.read_excel('Problem Set 1/PS1_data.xlsx', sheet_name='X_train')
